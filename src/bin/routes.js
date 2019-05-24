@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 //Pagina principal
 app.get("/", function(req, res) {
-  res.send("My music collection v1.0");
+  res.send("Bienvenido a tu app favorita de acesoria");
 });
 
 //Traer todos los usuarios
